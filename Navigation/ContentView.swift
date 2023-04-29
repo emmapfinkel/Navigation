@@ -9,18 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationStack {
+            VStack {
+                Text("This is the root view 🌳")
+            }
+            .toolbar {
+                
+                
+                NavigationLink(destination: SecondSwiftUIView()) {
+                    Text("About")
+                    
+                    
+                    
+                }
+                
+            }
+            
         }
-        .padding()
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

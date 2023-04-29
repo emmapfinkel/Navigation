@@ -14,6 +14,7 @@
 		BD9921E729F4282A002403AB /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9921E629F4282A002403AB /* NavigationTests.swift */; };
 		BD9921F129F4282A002403AB /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9921F029F4282A002403AB /* NavigationUITests.swift */; };
 		BD9921F329F4282A002403AB /* NavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9921F229F4282A002403AB /* NavigationUITestsLaunchTests.swift */; };
+		BDBEBC8129F567F90055A2DE /* SecondSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBEBC8029F567F90055A2DE /* SecondSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD9921EC29F4282A002403AB /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9921F029F4282A002403AB /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		BD9921F229F4282A002403AB /* NavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDBEBC8029F567F90055A2DE /* SecondSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BD9921D529F42828002403AB /* NavigationApp.swift */,
 				BD9921D729F42828002403AB /* ContentView.swift */,
+				BDBEBC8029F567F90055A2DE /* SecondSwiftUIView.swift */,
 				BD9921D929F4282A002403AB /* Assets.xcassets */,
 				BD9921DB29F4282A002403AB /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBEBC8129F567F90055A2DE /* SecondSwiftUIView.swift in Sources */,
 				BD9921D829F42828002403AB /* ContentView.swift in Sources */,
 				BD9921D629F42828002403AB /* NavigationApp.swift in Sources */,
 			);
